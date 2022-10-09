@@ -1,4 +1,4 @@
-require('express-async-error')
+require('express-async-errors')
 require('dotenv').config()
 
 const express= require('express')
@@ -6,13 +6,16 @@ const app = express()
 
 const quizRoute = require('./routes/quiz')
 
+const notFoundMw = require('./middlewares/notfound')
+const errHandlMw = require('./middlewares/errorhandlers')
 const connectDB = require('./util/connectDB')
 
 
 app.use(express.json())
 app.use('/api/v1', quizRoute)
 
-
+app.use(notFoundMw)
+app.use(errHandlMw)
 
 
 const PORT = process.env.PORT || 5000
