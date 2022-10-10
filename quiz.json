@@ -1,0 +1,591 @@
+[
+  {
+    "question": "Quel génie italien de la Renaissance a peint en 1512 la fresque intitulée : 'La création d'Adam' ?",
+    "answer": "Michel-Ange",
+    "badAnswers": [
+      "Raphael",
+      "Bellini",
+      "Botticelli"
+    ],
+    "category": "art_litterature",
+    "difficulty": "normal",
+    "pending": false
+  },
+  {
+    "question": "Quel est le mouvement artistique d'Andy Warhol ?",
+    "answer": "Pop Art",
+    "badAnswers": [
+      "Street Art",
+      "Land Art",
+      "Art Abstrait"
+    ],
+    "category": "art_litterature",
+    "difficulty": "normal",
+    "pending": false
+  },
+  {
+    "question": "Trois études pour un autoportrait est un tableau de ...",
+    "answer": "Francis Bacon",
+    "badAnswers": [
+      "Pablo Picasso",
+      "Salvador Dali",
+      "René Magritte"
+    ],
+    "category": "art_litterature",
+    "difficulty": "difficile",
+    "pending": false
+  },
+  {
+    "question": "Quel est la particularité de l'artiste Banksy ?",
+    "answer": "Identité inconnue",
+    "badAnswers": [
+      "Homme Politique",
+      "Drag Queen",
+      "Pas encore majeur"
+    ],
+    "category": "art_litterature",
+    "difficulty": "facile",
+    "pending": false
+  },
+  {
+    "question": "Combien d'oeuvres a réalisé Jackson Pollock ?",
+    "answer": "+ de 700",
+    "badAnswers": [
+      "33",
+      "333",
+      "500"
+    ],
+    "category": "art_litterature",
+    "difficulty": "normal",
+    "pending": false
+  },
+  {
+    "question": "Jeff Koons est surtout connu pour ses ... ?",
+    "answer": "Sculptures",
+    "badAnswers": [
+      "Tags",
+      "Peintures",
+      "Dessins"
+    ],
+    "category": "art_litterature",
+    "difficulty": "normal",
+    "pending": false
+  },
+  {
+    "question": "Jean-Michel Basquiat est décédé à quel âge ?",
+    "answer": "27 ans",
+    "badAnswers": [
+      "19 ans",
+      "33 ans",
+      "39 ans"
+    ],
+    "category": "art_litterature",
+    "difficulty": "difficile",
+    "pending": false
+  },
+  {
+    "question": "Klein a déposé une couleur qui porte son nom ...",
+    "answer": "Bleu",
+    "badAnswers": [
+      "Noir",
+      "Rouge",
+      "Violet"
+    ],
+    "category": "art_litterature",
+    "difficulty": "normal",
+    "pending": false
+  },
+  {
+    "question": "Qui a emballé l'Arc de Triomphe à Paris ?",
+    "answer": "Christo",
+    "badAnswers": [
+      "Tati",
+      "Yoko Ono",
+      "Ben"
+    ],
+    "category": "art_litterature",
+    "difficulty": "facile",
+    "pending": false
+  },
+  {
+    "question": "Qui a joué dans la Fureur de vivre ?",
+    "answer": "James Dean",
+    "badAnswers": [
+      "Burt Lancaster",
+      "Clint Eastwood",
+      "Marlon Brando"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "normal",
+    "pending": false
+  },
+  {
+    "question": "Qui a joué en premier le rôle de James Bond ?",
+    "answer": "Sean Connery",
+    "badAnswers": [
+      "Roger Moore",
+      "George Lazenby",
+      "Timothy Dalton"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "facile",
+    "pending": false
+  },
+  {
+    "question": "En quelle année a été projeté le premier film ?",
+    "answer": "1895",
+    "badAnswers": [
+      "1924",
+      "1912",
+      "1904"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "facile",
+    "pending": false
+  },
+  {
+    "question": "Rocky est un film qui parle de vie d'un ... ?",
+    "answer": "Boxeur",
+    "badAnswers": [
+      "Avocat",
+      "Chanteur",
+      "Journaliste"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "facile",
+    "pending": false
+  },
+  {
+    "question": "L'actrice Brigitte Bardot a joué dans le film ... ?",
+    "answer": "Et Dieu... créa la femme",
+    "badAnswers": [
+      "Jules et Jim",
+      "La piscine",
+      "Belle de Jour"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "normal",
+    "pending": false
+  },
+  {
+    "question": "Quel symbole récompense le meilleur film au festival de Berlin ?",
+    "answer": "Ours d'or",
+    "badAnswers": [
+      "Léopard d'or",
+      "Pyramide d'or",
+      "Lion d'or"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "difficile",
+    "pending": false
+  },
+  {
+    "question": "Qui a réalisé le film Titanic ?",
+    "answer": "James Cameron",
+    "badAnswers": [
+      "Steven Spielberg",
+      "David Lynch",
+      "Chirstopher Nolan"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "facile",
+    "pending": false
+  },
+  {
+    "question": "Le film Trainspotting décrit la démarche d'un ... ?",
+    "answer": "Drogué",
+    "badAnswers": [
+      "Stripteaser",
+      "Tueur en série",
+      "Contrôleur de train"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "normal",
+    "pending": false
+  },
+  {
+    "question": "Lequel de ces films n'a pas été réalisé par Quentin Tarentino ?",
+    "answer": "Matrix",
+    "badAnswers": [
+      "Pulp Fiction",
+      "Kill Bill",
+      "Les huit salopards"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "facile",
+    "pending": false
+  },
+  {
+    "question": "Dans le film Le Magnifique, Jean-Paul Belmondo joue le rôle d'un ... ?",
+    "answer": "Ecrivain",
+    "badAnswers": [
+      "Militaire",
+      "Inspecteur",
+      "Milliardaire"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "normal",
+    "pending": false
+  },
+  {
+    "question": "Qui a composé la musique du film le grand Bleu ?",
+    "answer": "Eric Serra",
+    "badAnswers": [
+      "Vladimir Cosma",
+      "Alexandre Desplat",
+      "Ennio Morricone"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "difficile",
+    "pending": false
+  },
+  {
+    "question": "Dans quelle série a joué l'acteur Jim Parsons ?",
+    "answer": "The Big Bang Theory",
+    "badAnswers": [
+      "How I met your mother",
+      "Game of Thrones",
+      "La petite maison dans la prairie"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "facile",
+    "pending": false
+  },
+  {
+    "question": "Qui animait le jeu télévisé le Bigdil ?",
+    "answer": "Vincent Lagaf'",
+    "badAnswers": [
+      "Philippe Risoli",
+      "Laurence Boccolini",
+      "Nagui"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "facile",
+    "pending": false
+  },
+  {
+    "question": "Quel est l'acteur principal de la série Breaking Bad ?",
+    "answer": "Bryan Cranston",
+    "badAnswers": [
+      "Josh Radnor",
+      "Matt Damon",
+      "Andrew Lincoln"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "normal",
+    "pending": false
+  },
+  {
+    "question": "Qui est le premier interprète du Doctor Who ?",
+    "answer": "William Hartnell",
+    "badAnswers": [
+      "Richard Hurndall",
+      "David Bradley",
+      "Matt Smith"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "difficile",
+    "pending": false
+  },
+  {
+    "question": "Sur quelle plateforme a été lancé la licence Final Fantasy ?",
+    "answer": "Nintendo Famicom",
+    "badAnswers": [
+      "Sony PlayStation",
+      "Microsoft Xbox",
+      "Sega Megadrive"
+    ],
+    "category": "jeux_videos",
+    "difficulty": "facile",
+    "pending": false
+  },
+  {
+    "question": "Comment s'appelle le héro de la licence Metal Gear ?",
+    "answer": "Solid Snake",
+    "badAnswers": [
+      "Big Boss",
+      "Liquid Snake",
+      "Link"
+    ],
+    "category": "jeux_videos",
+    "difficulty": "normal",
+    "pending": false
+  },
+  {
+    "question": "Lequel de ses personnages n'est pas disponible dans le jeu Street of Rage ?",
+    "answer": "Rick Thunder",
+    "badAnswers": [
+      "Adam Hunter",
+      "Axel Stone",
+      "Blaze Fielding"
+    ],
+    "category": "jeux_videos",
+    "difficulty": "facile",
+    "pending": false
+  },
+  {
+    "question": "Lequel de ses personnages n'est pas disponible dans le jeu Street of Rage ?",
+    "answer": "Rick Thunder",
+    "badAnswers": [
+      "Adam Hunter",
+      "Axel Stone",
+      "Blaze Fielding"
+    ],
+    "category": "jeux_videos",
+    "difficulty": "difficile",
+    "pending": false
+  },
+  {
+    "question": "Qui est le créateur du personnage Mario de Nintendo ?",
+    "answer": "Shigeru Miyamoto",
+    "badAnswers": [
+        "Fusajirō Yamauchi",
+        "Shuntaro Furukawa",
+        "Hayao Miyazaki"
+    ],
+    "category": "jeux_videos",
+    "difficulty": "difficile",
+    "pending": false
+},
+{
+    "question": "Quel acteur joue le rôle de Hubert Bonisseur de la Bath dans le film 'OSS 117: Le Caire, nid d'espions' ?",
+    "answer": "Jean Dujardin",
+    "badAnswers": [
+        "Christian Clavier",
+        "Guillaume Canet",
+        "Neil Patrick Harris"
+    ],
+    "category": "tv_cinema",
+    "difficulty": "difficile",
+    "pending": false
+},
+{
+    "question": "Quel est le métier de Phoenix Wright ?",
+    "answer": "Avocat",
+    "badAnswers": [
+        "Enquêteur",
+        "Juge",
+        "Procureur"
+    ],
+    "category": "jeux_videos",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Qui est le compositeur du thème principal de Tetris, Korobeïniki ?",
+    "answer": "Nikolaï Nekrassov",
+    "badAnswers": [
+        "Piotr Tchaïkovski",
+        "Hirokazu Tanaka",
+        "Alexandre Nikolaïevitch Skriabin"
+    ],
+    "category": "jeux_videos",
+    "difficulty": "difficile",
+    "pending": false
+},
+{
+    "question": "Qui est le premier héro dans Assassin's Creed ?",
+    "answer": "Altaïr",
+    "badAnswers": [
+        "Connor Kenway",
+        "Ezio Auditore",
+        "John White"
+    ],
+    "category": "jeux_videos",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Comment s'appelle l'héroïne des jeux Metroid ?",
+    "answer": "Samus",
+    "badAnswers": [
+        "Sheamus",
+        "Darius",
+        "Prepus"
+    ],
+    "category": "jeux_videos",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Dans la version originale de 'Street Fighter II: The world Warrior', combien y a-t-il de personnages jouables ?",
+    "answer": "8",
+    "badAnswers": [
+        "12",
+        "10",
+        "6"
+    ],
+    "category": "jeux_videos",
+    "difficulty": "difficile",
+    "pending": false
+},
+{
+    "question": "Quel est le premier jeu à avoir dépassé le million d'exemplaires vendus sur Playstation ?",
+    "answer": "Tekken",
+    "badAnswers": [
+        "Tomb Raider",
+        "Final Fantasy VII",
+        "Doom"
+    ],
+    "category": "jeux_videos",
+    "difficulty": "difficile",
+    "pending": false
+},
+{
+    "question": "A quel développeur est associé la série de jeux vidéos Civilization ?",
+    "answer": "Sid Meier",
+    "badAnswers": [
+        "Tom Clancy",
+        "Jeff Kaplan",
+        "Markus Persson"
+    ],
+    "category": "jeux_videos",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "En quelle année les jeux FIFA Football ont-ils commencé à être édités ?",
+    "answer": "1993",
+    "badAnswers": [
+        "1994",
+        "1998",
+        "2000"
+    ],
+    "category": "jeux_videos",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Quel animal est Sonic ?",
+    "answer": "Hérisson",
+    "badAnswers": [
+        "Raton-laveur",
+        "Chien",
+        "Blaireau"
+    ],
+    "category": "jeux_videos",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Le film 'Quatre garçons dans le vent' met en scène quel groupe de musique ?",
+    "answer": "Les Beatles",
+    "badAnswers": [
+        "Les Rolling stones",
+        "The Animals",
+        "Evanescence"
+    ],
+    "category": "musique",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Qui est le compositeur des Quatre Saisons ?",
+    "answer": "Antonio Vivaldi",
+    "badAnswers": [
+        "Johann Sebastian Bach",
+        "Wolfgang Amadeus Mozart",
+        "Wilhelm Richard Wagner"
+    ],
+    "category": "musique",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Quel est le nom du premier album des Black Eyed Peas ?",
+    "answer": "Behind the Front",
+    "badAnswers": [
+        "Bridging the Gap",
+        "Elephunk",
+        "Monkey Business"
+    ],
+    "category": "musique",
+    "difficulty": "difficile",
+    "pending": false
+},
+{
+    "question": "Qui a chanté Joe le taxi ?",
+    "answer": "Vanessa Paradis",
+    "badAnswers": [
+        "Lio",
+        "Mylène Farmer",
+        "Brigitte Bardot"
+    ],
+    "category": "musique",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Quel était l'instrument de prédilection de Louis Armstrong ?",
+    "answer": "La Trompette",
+    "badAnswers": [
+        "La guitare",
+        "La contre-basse",
+        "La clarinette"
+    ],
+    "category": "musique",
+    "difficulty": "difficile",
+    "pending": false
+},
+{
+    "question": "Qui a écrit 'Comme un boomerang', interprété par Etienne Daho et Dani en 2001 ?",
+    "answer": "Serges Gainsbourg",
+    "badAnswers": [
+        "Jean-Jacques Goldman",
+        "Patrick Bruel",
+        "Nicola Sirkis"
+    ],
+    "category": "musique",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "En quelle année est sorti le premier album du groupe Indochine, 'L'aventurier' ?",
+    "answer": "1982",
+    "badAnswers": [
+        "1983",
+        "1985",
+        "1980"
+    ],
+    "category": "musique",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Quel groupe chante 'Roxanne ?",
+    "answer": "Police",
+    "badAnswers": [
+        "INXS",
+        "Nirvana",
+        "Scorpion"
+    ],
+    "category": "musique",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Quel était le surnom donné à Michael Jackson ?",
+    "answer": "King of the Pop",
+    "badAnswers": [
+        "King of Rock",
+        "King of Music",
+        "King of Danse"
+    ],
+    "category": "musique",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Calvin Cordozar Broadus, Jr. est le véritable nom de quel rappeur Américain ?",
+    "answer": "Snoop Dogg",
+    "badAnswers": [
+        "Dr. DRE",
+        "Coolio",
+        "2Pac"
+    ],
+    "category": "musique",
+    "difficulty": "difficile",
+    "pending": false
+}
+  
+]
