@@ -19,12 +19,13 @@ const quizSchema = new mongoose.Schema({
   },
   category : {
     type : String,
-    enum : ['Art & Littérature',
-            'TV & Cinéma',
-            'Jeux vidéos',
-            'Culture Générale',
-            'Sport',
-            'Actualités et Politique'          
+    enum : ['art_litterature',
+            'tv_cinema',
+            'jeux_videos',
+            'culture_generale',
+            'sport',
+            'actu_politique',
+            'musique'          
             ],
     required : [true, "Vous devez choisir une catégorie"]
   },
@@ -36,6 +37,10 @@ const quizSchema = new mongoose.Schema({
             'difficile'
     ],
     required: [true, "Vous devez choisir une difficultée"]
+  },
+  pending : {
+    type: Boolean,
+    default: true
   }
 })
 
