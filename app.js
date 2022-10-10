@@ -5,6 +5,7 @@ const express= require('express')
 const app = express()
 
 const quizRoute = require('./routes/quiz')
+const authRoute = require('./routes/auth')
 
 const notFoundMw = require('./middlewares/notfound')
 const errHandlMw = require('./middlewares/errorhandlers')
@@ -12,8 +13,10 @@ const connectDB = require('./util/connectDB')
 
 
 app.use(express.json())
+
 app.use('/api/v1', quizRoute)
 
+app.use('/auth', authRoute)
 app.use(notFoundMw)
 app.use(errHandlMw)
 
