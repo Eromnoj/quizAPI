@@ -586,6 +586,378 @@
     "category": "musique",
     "difficulty": "difficile",
     "pending": false
+},
+{
+    "question": "Quelle est la capitale de la Nouvelle-Zélande ?",
+    "answer": "Wellington",
+    "badAnswers": [
+        "Auckland",
+        "Dublin",
+        "Sydney"
+    ],
+    "category": "culture_generale",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Quel titre de noblesse est immédiatement inférieur à celui de comte ?",
+    "answer": "Vicomte",
+    "badAnswers": [
+        "Archiduc",
+        "Duc",
+        "Marquis"
+    ],
+    "category": "culture_generale",
+    "difficulty": "difficile",
+    "pending": false
+},
+{
+    "question": "Comment appelle-t-on le fruit du plaqueminier ?",
+    "answer": "Kaki",
+    "badAnswers": [
+        "Kakou",
+        "Kacha",
+        "Kali"
+    ],
+    "category": "culture_generale",
+    "difficulty": "difficile",
+    "pending": false
+},
+{
+    "question": "Au Moyen-Âge, comment appelait-on les villages fortifiés ?",
+    "answer": "Bastide",
+    "badAnswers": [
+        "Tour",
+        "Château fort",
+        "Rempart"
+    ],
+    "category": "culture_generale",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Comment est également appelée la 'Transat Jacques Vabre' ?",
+    "answer": "Route du café",
+    "badAnswers": [
+        "Route du rhum",
+        "Vendée Globe",
+        "Trophée du rhum"
+    ],
+    "category": "sport",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Quel nom porte le logiciel de traitement de texte mis au point par Microsoft ?",
+    "answer": "Word",
+    "badAnswers": [
+        "Access",
+        "Excel",
+        "PowerPoint"
+    ],
+    "category": "culture_generale",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Quel pays a pour capital Katmandou ?",
+    "answer": "Le Népal",
+    "badAnswers": [
+        "Le Tibet",
+        "La Corée du Sud",
+        "Le Pakistan"
+    ],
+    "category": "culture_generale",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "A quel groupe musical international doit-on la bande originale du film 'Flash Gordon ?",
+    "answer": "Queen",
+    "badAnswers": [
+        "Yes",
+        "Led Zeppelin",
+        "The Doors"
+    ],
+    "category": "musique",
+    "difficulty": "difficile",
+    "pending": false
+},
+{
+    "question": "A quelle classe animale le scorpion appartient-il ?",
+    "answer": "Aux arachnides",
+    "badAnswers": [
+        "Aux mammifères",
+        "Aux reptiles",
+        "Aux insectes"
+    ],
+    "category": "culture_generale",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Quel oiseau palmipède a pour particularité de construire un nid flottant ?",
+    "answer": "La grèbe",
+    "badAnswers": [
+        "La grèle",
+        "La grève",
+        "La grène"
+    ],
+    "category": "culture_generale",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Dans le langage familier, comment appelle-t-on la dente du petit enfant ?",
+    "answer": "Quenotte",
+    "badAnswers": [
+        "Marmotte",
+        "Menotte",
+        "Bouillotte"
+    ],
+    "category": "culture_generale",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Quel peintre, né en 1844, est également appelé 'le Douanier' ?",
+    "answer": "Henri Rousseau",
+    "badAnswers": [
+        "Pablo Picasso",
+        "Edgar Degas",
+        "Salvador Dali"
+    ],
+    "category": "art_litterature",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Comment appelle-t-on le versant de la montagne non situé au soleil ?",
+    "answer": "Ubac",
+    "badAnswers": [
+        "Adret",
+        "Etant",
+        "Ressac"
+    ],
+    "category": "culture_generale",
+    "difficulty": "difficile",
+    "pending": false
+},
+{
+    "question": "Quelle est la seule valeur à la roulette à porter la couleur verte ?",
+    "answer": "Le zéro",
+    "badAnswers": [
+        "Le cinquante",
+        "Le quarante",
+        "Le treize"
+    ],
+    "category": "culture_generale",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Quelle est la plus petite unité de mémoire utilisable sur un ordinateur ?",
+    "answer": "Le bit",
+    "badAnswers": [
+        "Le byte",
+        "Le mega",
+        "Le giga"
+    ],
+    "category": "culture_generale",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Quel insecte appelle-t-on aussi la bête à bon dieu ?",
+    "answer": "La coccinelle",
+    "badAnswers": [
+        "La luciole",
+        "Le scarabée",
+        "La libellule"
+    ],
+    "category": "culture_generale",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Qui fut le premier européen à arriver aux Philippines ?",
+    "answer": "Magellan",
+    "badAnswers": [
+        "Christophe Colomb",
+        "Vasco de Gama",
+        "Mauperthuis"
+    ],
+    "category": "culture_generale",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Combien de temps dure le mandat du président des Etats-Unis ?",
+    "answer": "4 ans",
+    "badAnswers": [
+        "5 ans",
+        "6 ans",
+        "7 ans"
+    ],
+    "category": "culture_generale",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Dans quel pays se trouve le circuit automobile de Zandvoort ?",
+    "answer": "Les Pays-Bas",
+    "badAnswers": [
+        "La Belgique",
+        "La Suisse",
+        "La France"
+    ],
+    "category": "sport",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Dans quelle ville se trouve la fontaine de Trevi ?",
+    "answer": "Rome",
+    "badAnswers": [
+        "Venise",
+        "Barcelone",
+        "Seville"
+    ],
+    "category": "culture_generale",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "En quoi un nihiliste croit-il ?",
+    "answer": "En rien",
+    "badAnswers": [
+        "En la chance",
+        "En tout",
+        "En lui-même"
+    ],
+    "category": "culture_generale",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Avec quel autre animal vit généralement une oie ?",
+    "answer": "Le jars",
+    "badAnswers": [
+        "Le canard",
+        "Le cygne",
+        "La poule"
+    ],
+    "category": "culture_generale",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Quelle est la plus grande tortue marine connue à ce jour ?",
+    "answer": "La tortue luth",
+    "badAnswers": [
+        "La tortue franche",
+        "La tortue ninja",
+        "La tortue argneuse"
+    ],
+    "category": "culture_generale",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Avec quoi mesure-t-on la pronfondeur des océans ?",
+    "answer": "Un sonar",
+    "badAnswers": [
+        "Un sextant",
+        "Un radar",
+        "Un compteur Geiger"
+    ],
+    "category": "culture_generale",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Dans quelle ville sont situées les plus célèbres falaises de France ?",
+    "answer": "Etretat",
+    "badAnswers": [
+        "Nice",
+        "Brest",
+        "Saint-Malo"
+    ],
+    "category": "culture_generale",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Combien de paires de côtes possède-t-on ?",
+    "answer": "Douze paires",
+    "badAnswers": [
+        "Quatorze paires",
+        "Huit paires",
+        "Dix paires"
+    ],
+    "category": "culture_generale",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Quelle capitale actuelle était appelée 'Philadelphia' du temps des Romains ?",
+    "answer": "Amman",
+    "badAnswers": [
+        "Téhéran",
+        "Damas",
+        "Bagdad"
+    ],
+    "category": "culture_generale",
+    "difficulty": "difficile",
+    "pending": false
+},
+{
+    "question": "Quel os du squelette humain est le plus long et le plus solide ?",
+    "answer": "Le fémur",
+    "badAnswers": [
+        "Le radius",
+        "Le cubitus",
+        "Le carpe"
+    ],
+    "category": "culture_generale",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "Dans quelles aventures retrouve-t-on les personnages de Loïs et Clark ?",
+    "answer": "Superman",
+    "badAnswers": [
+        "Hulk",
+        "Spiderman",
+        "Batman"
+    ],
+    "category": "culture_generale",
+    "difficulty": "facile",
+    "pending": false
+},
+{
+    "question": "Quel arbre est connu pour être le plus grand au monde ?",
+    "answer": "Le séquoia",
+    "badAnswers": [
+        "Le chêne",
+        "Le pin",
+        "Le hêtre"
+    ],
+    "category": "culture_generale",
+    "difficulty": "normal",
+    "pending": false
+},
+{
+    "question": "De quelle plante le nom signifie-t-il 'turban' en perse ?",
+    "answer": "La tulipe",
+    "badAnswers": [
+        "La digitale",
+        "Le renoncule",
+        "La jonquille"
+    ],
+    "category": "culture_generale",
+    "difficulty": "normal",
+    "pending": false
 }
   
 ]

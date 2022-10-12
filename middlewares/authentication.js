@@ -13,7 +13,7 @@ const authenticationMiddleware = async (req, res, next) => {
 
   try {
     const isValid = jwt.verify(token, process.env.JWT_SECRET)
-    req.user = {id: isValid.id, username: isValid.username, role: isValid.role}    
+    req.user = {userId: isValid.id, username: isValid.username, role: isValid.role}    
     next()
   } catch (error) {
     
