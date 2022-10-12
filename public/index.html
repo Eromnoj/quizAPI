@@ -20,8 +20,49 @@
 				<h3 class="text-3xl p-3 text-teal-100">Une API pour créer des quiz dans vos applis !</h3>
 				<p class="p-3">
 					Cette API est facile à utiliser, référez-vous à la documentation en suivant ce lien :
-					<a href="#">Documentation</a>
+					<a href="#" class="text-green-600">Documentation</a>
 				</p>
+				<div>
+					<p class="m-5">Exemple de requête :
+					</p>
+					<div class="my-5 p-5 text-stone-100 bg-indigo-800 border border-stone-100">
+						<code>https://young-wave-25726.herokuapp.com/api/v1/quiz?limit=5&category=tv_cinema&difficulty=facile</code>
+					</div>
+					<p class="m-5">Structure de la réponse :
+					</p>
+					<div class="my-5 p-5 text-stone-100 bg-indigo-800 border border-stone-100">
+						<code>{<br>
+							<span class="text-green-600">"count":</span>
+							1,<br>
+							<span class="text-green-600">"quizzes"</span>: [<br>
+							{<br>
+							<span class="text-green-600">
+								"_id":</span>
+							"634661448f0049033d2eadb2",<br>
+							<span class="text-green-600">"question":</span>
+							"Lequel de ces films n'a pas été réalisé par Quentin Tarentino ?",<br>
+							<span class="text-green-600">"answer":</span>
+							"Matrix",<br>
+							<span class="text-green-600">"badAnswers":</span>
+							[<br>
+							"Pulp Fiction",<br>
+							"Kill Bill",<br>
+							"Les huit salopards"<br>
+							],<br>
+							<span class="text-green-600">"category":</span>
+							"tv_cinema",<br>
+							<span class="text-green-600">"difficulty":</span>
+							"facile",<br>
+							<span class="text-green-600">"pending":</span>
+							false,<br>
+							<span class="text-green-600">"__v":</span>
+							0<br>
+							}<br>
+							]<br>
+							}</code>
+					</div>
+
+				</div>
 			</div>
 			<div class="border-teal-300 border rounded-md bg-slate-900 text-teal-300 flex flex-col justify-center items-center py-5 px-9 w-5/6 my-5">
 				<h3 class="text-3xl p-3 text-teal-100">Proposez vos questions !</h3>
@@ -33,24 +74,24 @@
 					<div class="flex flex-col justify-center m-2">
 						<label class="text-lg font-semibold" for="question">Question :
 						</label>
-						<input class="border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold" type="text" class="question" id="question" name="question" required>
+						<input class="border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold" type="text" class="question" id="question" name="question" minlength="10" required>
 					</div>
 					<div class="flex flex-col justify-center m-2">
 						<label class="text-lg font-semibold" for="answer">Bonne réponse :
 						</label>
-						<input class="border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold" type="text" class="answer" id="answer" name="answer" required>
+						<input class="border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold" type="text" class="answer" id="answer" name="answer" minlength="3" required>
 					</div>
 					<div class="flex flex-col justify-center m-2">
 						<label class="text-lg font-semibold" for="badAnswer1">Mauvaise réponse 1 :</label>
-						<input class="border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold" type="text" class="badAnswer1" id="badAnswer1" name="badAnswer1" required>
+						<input class="border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold" type="text" class="badAnswer1" id="badAnswer1" name="badAnswer1" minlength="3" required>
 					</div>
 					<div class="flex flex-col justify-center m-2">
 						<label class="text-lg font-semibold" for="badAnswer2">Mauvaise réponse 2 :</label>
-						<input class="border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold" type="text" class="badAnswer2" id="badAnswer2" name="badAnswer2" required>
+						<input class="border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold" type="text" class="badAnswer2" id="badAnswer2" name="badAnswer2" minlength="3" required>
 					</div>
 					<div class="flex flex-col justify-center m-2">
 						<label class="text-lg font-semibold" for="badAnswer3">Mauvaise réponse 3 :</label>
-						<input class="border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold" type="text" class="badAnswer3" id="badAnswer3" name="badAnswer3" required>
+						<input class="border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold" type="text" class="badAnswer3" id="badAnswer3" name="badAnswer3" minlength="3" required>
 					</div>
 					<div class="flex flex-col justify-center m-2">
 						<label class="text-lg font-semibold" for="category">Catégorie :
@@ -86,10 +127,13 @@
 			</div>
 		</main>
 
-    <footer>
+		<footer class="bg-slate-900 text-teal-300 flex flex-col justify-center items-center py-5 px-9 w-full">
+			<h3>Réalisé par Jonathan Moreschi.</h3>
+			<p>Lien vers le gitHub du projet :
+				<a href="https://github.com/Eromnoj/quizAPI" class="text-green-600">https://github.com/Eromnoj/quizAPI</a>
+			</p>
 
-
-    </footer>
+		</footer>
 
 
 		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>

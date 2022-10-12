@@ -1,0 +1,147 @@
+openapi: 3.0.0
+info:
+  title: Quiz API
+  version: 1.0.0
+servers:
+  - url: https://young-wave-25726.herokuapp.com
+components:
+  securitySchemes:
+    noauthAuth:
+      type: http
+      scheme: noauth
+    bearerAuth:
+      type: http
+      scheme: bearer
+paths:
+  /api/v1/quiz:
+    get:
+      tags:
+        - default
+      summary: Get quiz
+      security:
+        - noauthAuth: []
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: integer
+          example: '5'
+        - name: category
+          in: query
+          schema:
+            type: string
+          example: tv_cinema, art_litterature, musique, actu_politique, culture_generale, sport, jeux_videos
+        - name: difficulty
+          in: query
+          schema:
+            type: string
+          example: facile, normal, difficile
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /api/v1/create:
+    post:
+      tags:
+        - default
+      summary: Create quiz
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                question: Qui a écrit 'La Valise en carton' ?
+                answer: Linda de Suza
+                badAnswers:
+                  - Victor Hugo
+                  - Bernard Werber
+                  - Amélie Nothomb
+                category: art_litterature
+                difficulty: facile
+      security:
+        - noauthAuth: []
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /api/v1/quiz/634661448f0049033d2eadb5:
+    get:
+      tags:
+        - default
+      summary: Get One quiz
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    patch:
+      tags:
+        - default
+      summary: Update quiz
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                category: tv_cinema
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /api/v1/quiz/634429a1dd8144e2ba883dba:
+    delete:
+      tags:
+        - default
+      summary: Delete quiz
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /auth/register:
+    post:
+      tags:
+        - default
+      summary: Register
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                username: user
+                password: secret
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /auth/login:
+    post:
+      tags:
+        - default
+      summary: Login
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                username: user
+                password: secret
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
