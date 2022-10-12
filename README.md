@@ -1,4 +1,4 @@
-#Quiz API
+# Quiz API
 
 Une API francophone gratuite, pour réaliser des quiz.
 
@@ -8,7 +8,8 @@ Rendez-vous sur la page du projet pour plus d'informations (Il n'y en pas tant q
 
 [Link Cocoriquiz](https://young-wave-25726.herokuapp.com/)
 
-##Documentation
+## Documentation
 
 Vous pouvez accèder à la documentation au format OpenAPI en suivant ce lien :
+
 [Link Documentation](https://young-wave-25726.herokuapp.com/documentation)
