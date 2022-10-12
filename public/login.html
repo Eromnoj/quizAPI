@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cocoriquiz</title>
+		<meta name="description" content="API pour des quiz en langue française">
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="stylesheet" href="/style/style.css">
+	</head>
+	<body class="bg-gradient-to-br from-slate-900 via-teal-900 to-violet-900 min-h-screen">
+		<header class="p-3 h-40 flex justify-center items-center">
+			<h1 class="text-6xl font-serif text-teal-100">Cocoriquiz</h1>
+		</header>
+
+
+		<main class="container mx-auto flex flex-col justify-center items-center">
+			
+			<div class="border-teal-300 border rounded-md bg-slate-900 text-teal-300 flex flex-col justify-center items-center py-5 px-9 w-5/6 my-5">
+
+
+				<div id="message" class="flex flex-col justify-center items-center py-5 px-9 w-full my-5 text-center text-stone-50"></div>
+				<form class="p-3 w-4/6" name="login" id="login" method="post">
+					<div class="flex flex-col justify-center m-2">
+						<label class="text-lg font-semibold" for="username">Nom d'utilisateur :
+						</label>
+						<input class="border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold" type="text" class="username" id="username" name="username" required>
+					</div>
+					<div class="flex flex-col justify-center m-2">
+						<label class="text-lg font-semibold" for="password">Mot de passe :
+						</label>
+						<input class="border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold" type="password" class="password" id="password" name="password" required>
+					</div>
+					<div class="flex flex-col justify-center m-2">
+						<button class="m-auto border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold" id="submitForm">Se Connecter</button>
+					</div>
+				</form>
+			</div>
+		</main>
+
+    <footer>
+
+
+    </footer>
+
+
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="login.js"></script>
+	</body>
+</html>

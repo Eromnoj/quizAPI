@@ -58,7 +58,7 @@ const getOneQuiz = async (req, res) => {
 
   const quiz = await Quiz.findById(id)
 
-  res.status(StatusCodes.OK).json({ msg: `Get one quiz with id : ${id}`, quiz })
+  res.status(StatusCodes.OK).json({ msg: `Voici une question au hasard : ${id}`, quiz })
 
 }
 
@@ -101,10 +101,9 @@ const createQuiz = async (req, res) => {
     }
   }
 
-  console.log(pendingQuiz)
   const quiz = await Quiz.create(pendingQuiz)
 
-  res.status(StatusCodes.CREATED).json({ msg: 'Create', quiz: quiz })
+  res.status(StatusCodes.CREATED).json({ msg: 'Votre question a bien été soumise et est en attente de modération, Merci !', quiz: quiz })
 
 }
 
@@ -127,7 +126,7 @@ const updateQuiz = async (req, res) => {
     throw new CustomErrorHandler(StatusCodes.BAD_REQUEST, `L'id n'existe pas : ${id}`)
   }
 
-  res.status(200).json({ msg: 'updated', quiz })
+  res.status(200).json({ msg: 'La question a bien été mise à jour', quiz })
 
 }
 
@@ -152,7 +151,7 @@ const deleteQuiz = async (req, res) => {
   }
 
 
-  res.status(200).json({ msg: `Deleted` })
+  res.status(200).json({ msg: `La question a bien été supprimée` })
 
 }
 

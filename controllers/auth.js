@@ -18,8 +18,6 @@ const register = async (req, res) => {
   res.status(201).json({ msg: "User created", token })
 }
 
-
-
 const login = async (req, res) => {
 
   const { username, password } = req.body
@@ -43,12 +41,21 @@ const login = async (req, res) => {
   }
 
 
+}
+
+const verifyId = async (req, res) => {
+
+  const { userId, username } = req.user
+
+    res.status(200).json({ msg: `Bienvenue ${username}` })
+ 
 
 
 }
 
 module.exports = {
   register,
-  login
+  login,
+  verifyId
 }
 

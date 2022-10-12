@@ -4,18 +4,22 @@ const quizSchema = new mongoose.Schema({
   question : {
     type: String,
     required: [true, "Une question doit être rentrée"],
-    min: [10, "Minimum de 10 caractères"],
+    minlength: [10, "Minimum de 10 caractères"],
   },
   answer : {
     type: String,
     required: [true , "Vous devez entrer la réponse",],
-    min: [3, "Minimum de 10 caractères"],
+    minlength: [3, "Minimum de 3 caractères"],
   },
   badAnswers : {
-    type : [String],
-    required: [true, "Vous devez entrer des mauvaises réponses"],
-    min: 3,
-    max: 3
+    type : [
+      {
+        type:String,
+        minlength: [3, "Minimum de 3 caractères"]
+      }
+    ],
+    required: [true, "Vous devez entrer des mauvaises réponses"]
+
   },
   category : {
     type : String,

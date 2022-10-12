@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cocoriquiz</title>
+		<meta name="description" content="API pour des quiz en langue française">
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="stylesheet" href="/style/style.css">
+	</head>
+	<body id="show" class="bg-gradient-to-br from-slate-900 via-teal-900 to-violet-900 min-h-screen">
+		<header class="p-3 h-40 flex flex-col justify-center items-center">
+			<h1 class="text-6xl font-serif text-teal-100">Dashboard</h1>
+			<h3 id="message" class="text-3xl p-3 text-teal-100"></h3>
+
+			<button id="logout" class="m-auto border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold">Déconnexion</button>
+		</header>
+
+
+		<main class="container mx-auto flex flex-col justify-center items-center">
+
+			<h3 class="text-3xl p-3 text-teal-100">Questions en attente de validation : <span id="count"></span></h3>
+			<div id="questionPending" class="container mx-auto flex flex-col justify-center items-center"></div>
+			
+			
+
+    <footer>
+
+
+    </footer>
+
+
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="dashboard.js"></script>
+	</body>
+</html>

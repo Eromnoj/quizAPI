@@ -17,7 +17,7 @@ const authRoute = require('./routes/auth')
 const notFoundMw = require('./middlewares/notfound')
 const errHandlMw = require('./middlewares/errorhandlers')
 const connectDB = require('./util/connectDB')
-
+const authenticationMiddleware = require('./middlewares/authentication')
 // extra package Rate limiter
 // allow proxies
 app.set('trust proxy', 1)
@@ -31,7 +31,8 @@ app.use(
 )
 
 app.use(express.json());
-
+app.use('/',express.static('public'))
+app.use('/dashboard', express.static('private') )
 //extra security packages
 app.use(helmet())
 app.use(cors())
