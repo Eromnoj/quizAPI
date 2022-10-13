@@ -3,7 +3,7 @@ info:
   title: Quiz API
   version: 1.0.0
 servers:
-  - url: https://young-wave-25726.herokuapp.com
+  - url: https://cocoriquiz.herokuapp.com
 components:
   securitySchemes:
     noauthAuth:
@@ -67,7 +67,7 @@ paths:
           description: Successful response
           content:
             application/json: {}
-  /api/v1/quiz/634661448f0049033d2eadb5:
+  /api/v1/quiz/:id:
     get:
       tags:
         - default
@@ -95,7 +95,6 @@ paths:
           description: Successful response
           content:
             application/json: {}
-  /api/v1/quiz/634429a1dd8144e2ba883dba:
     delete:
       tags:
         - default
