@@ -110,7 +110,7 @@
         }
       }
     },
-    "/api/v1/quiz/634661448f0049033d2eadb5": {
+    "/api/v1/quiz/:id": {
       "get": {
         "tags": [
           "default"
@@ -155,9 +155,7 @@
             }
           }
         }
-      }
-    },
-    "/api/v1/quiz/634429a1dd8144e2ba883dba": {
+      },
       "delete": {
         "tags": [
           "default"
