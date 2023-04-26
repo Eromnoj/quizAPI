@@ -43,10 +43,10 @@ const getAllQuiz = async (req, res) => {
 
   let aggregQuery = [{ $match: objectQuery }]
 
+  aggregQuery.push({$project : { "pending": 0, "__v": 0}})
   if (limit) {
     aggregQuery.push({ $sample: { size: parseInt(limit) } })
   }
-
   const quizzes = await Quiz.aggregate(aggregQuery)
 
   res.status(StatusCodes.OK).json({ count: quizzes.length, quizzes: quizzes })
