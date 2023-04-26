@@ -112,7 +112,8 @@ const verifyID = async() => {
     
 
   } catch (error) {
-    window.location.replace("/login.html")
+console.log(error)   
+ window.location.replace("/login.html")
   }
 }
 

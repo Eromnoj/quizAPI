@@ -11,7 +11,7 @@ login.addEventListener('submit', async (e) => {
     password: formData.get('password') 
   }
 
-  console.log(loginData);
+
   try {
     const response = await axios.post('/auth/login', loginData)
     const token = response.data.token

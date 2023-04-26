@@ -6,7 +6,7 @@
   },
   "servers": [
     {
-      "url": "https://cocoriquiz.herokuapp.com"
+      "url": "https://quizzapi.jomoreschi.fr"
     }
   ],
   "components": {

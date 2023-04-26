@@ -9,13 +9,13 @@ const quizSchema = new mongoose.Schema({
   answer : {
     type: String,
     required: [true , "Vous devez entrer la réponse",],
-    minlength: [3, "Minimum de 3 caractères"],
+    minlength: [1, "Minimum de 1 caractères"],
   },
   badAnswers : {
     type : [
       {
         type:String,
-        minlength: [3, "Minimum de 3 caractères"]
+        minlength: [1, "Minimum de 1 caractères"]
       }
     ],
     required: [true, "Vous devez entrer des mauvaises réponses"]
