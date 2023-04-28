@@ -4,61 +4,19 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Cocoriquiz</title>
+		<title>Simple Quiz API FR</title>
 		<meta name="description" content="API pour des quiz en langue française">
 		<script src="https://cdn.tailwindcss.com"></script>
 		<link rel="stylesheet" href="/style/style.css">
 	</head>
 	<body class="bg-gradient-to-br from-slate-900 via-teal-900 to-violet-900 min-h-screen">
 		<header class="p-3 h-40 flex justify-center items-center">
-			<h1 class="text-6xl font-serif text-teal-100">Cocoriquiz</h1>
+			<h1 class="text-6xl font-serif text-teal-100">Simple Quiz API FR</h1>
 		</header>
 
 
 		<main class="container mx-auto flex flex-col justify-center items-center">
-			<div class="border-teal-300 border rounded-md bg-slate-900 text-teal-300 flex flex-col justify-center items-center py-5 px-9 w-5/6 my-5">
-				<h3 class="text-3xl p-3 text-teal-100">Une API pour créer des quiz dans vos applis !</h3>
-				<p class="p-3">
-					Cette API est facile à utiliser, référez-vous à la documentation en suivant ce lien :
-					<a href="/documentation" class="text-green-600">Documentation</a>
-				</p>
-				<div>
-					<p class="m-5">Exemple de requête :
-					</p>
-					<div class="my-5 p-5 text-stone-100 bg-indigo-800 border border-stone-100">
-						<code>https://quizzapi.jomoreschi.fr/api/v1/quiz?limit=5&category=tv_cinema&difficulty=facile</code>
-					</div>
-					<p class="m-5">Structure de la réponse :
-					</p>
-					<div class="my-5 p-5 text-stone-100 bg-indigo-800 border border-stone-100">
-						<code>{<br>
-							<span class="text-green-600">"count":</span>
-							1,<br>
-							<span class="text-green-600">"quizzes"</span>: [<br>
-							{<br>
-							<span class="text-green-600">
-								"_id":</span>
-							"634661448f0049033d2eadb2",<br>
-							<span class="text-green-600">"question":</span>
-							"Lequel de ces films n'a pas été réalisé par Quentin Tarentino ?",<br>
-							<span class="text-green-600">"answer":</span>
-							"Matrix",<br>
-							<span class="text-green-600">"badAnswers":</span>
-							[<br>
-							"Pulp Fiction",<br>
-							"Kill Bill",<br>
-							"Les huit salopards"<br>
-							],<br>
-							<span class="text-green-600">"category":</span>
-							"tv_cinema",<br>
-							<span class="text-green-600">"difficulty":</span>
-							"facile",<br>
-							}<br>
-							]<br>
-							}</code>
-					</div>
-				</div>
-			</div>
+
 			<div class="border-teal-300 border rounded-md bg-slate-900 text-teal-300 flex flex-col justify-center items-center py-5 px-9 w-5/6 my-5">
 				<h3 class="text-3xl p-3 text-teal-100">Proposez vos questions !</h3>
 				<p class="p-3">L'API se construit grâce à la communauté. Vous pouvez proposer vos questions en remplissant le formulaire suivant :</p>
@@ -119,6 +77,52 @@
 						<button class="m-auto border-teal-300 border rounded-md bg-slate-400 text-teal-900 text-teal-300 p-2 text-lg font-bold" id="submitForm">Soumettre la question</button>
 					</div>
 				</form>
+			</div>
+
+
+
+			<div class="border-teal-300 border rounded-md bg-slate-900 text-teal-300 flex flex-col justify-center items-center py-5 px-9 w-5/6 my-5">
+				<h3 class="text-3xl p-3 text-teal-100">Une API pour créer des quiz dans vos applis !</h3>
+				<p class="p-3">
+					Cette API est facile à utiliser, référez-vous à la documentation en suivant ce lien :
+					<a href="/documentation" class="text-green-600">Documentation</a>
+				</p>
+				<div>
+					<p class="m-5">Exemple de requête :
+					</p>
+					<div class="my-5 p-5 text-stone-100 bg-indigo-800 border border-stone-100">
+						<code>https://quizzapi.jomoreschi.fr/api/v1/quiz?limit=5&category=tv_cinema&difficulty=facile</code>
+					</div>
+					<p class="m-5">Structure de la réponse :
+					</p>
+					<div class="my-5 p-5 text-stone-100 bg-indigo-800 border border-stone-100">
+						<code>{<br>
+							<span class="text-green-600">"count":</span>
+							1,<br>
+							<span class="text-green-600">"quizzes"</span>: [<br>
+							{<br>
+							<span class="text-green-600">
+								"_id":</span>
+							"634661448f0049033d2eadb2",<br>
+							<span class="text-green-600">"question":</span>
+							"Lequel de ces films n'a pas été réalisé par Quentin Tarentino ?",<br>
+							<span class="text-green-600">"answer":</span>
+							"Matrix",<br>
+							<span class="text-green-600">"badAnswers":</span>
+							[<br>
+							"Pulp Fiction",<br>
+							"Kill Bill",<br>
+							"Les huit salopards"<br>
+							],<br>
+							<span class="text-green-600">"category":</span>
+							"tv_cinema",<br>
+							<span class="text-green-600">"difficulty":</span>
+							"facile",<br>
+							}<br>
+							]<br>
+							}</code>
+					</div>
+				</div>
 			</div>
 		</main>
 

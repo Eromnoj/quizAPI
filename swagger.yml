@@ -3,7 +3,7 @@ info:
   title: Quiz API
   version: 1.0.0
 servers:
-  - url: https://cocoriquiz.herokuapp.com
+  - url: https://quizzapi.jomoreschi.fr/
 components:
   securitySchemes:
     noauthAuth:
