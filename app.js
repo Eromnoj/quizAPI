@@ -28,8 +28,8 @@ app.set('trust proxy', 1)
 //max 100 every 15 minutes
 app.use(
   rateLimiter({
-    windowMs: 15 * 60 * 1000, //15 minutes (milliseconds)
-    max: 100
+    windowMs: 1 * 60 * 1000, //15 minutes (milliseconds)
+    max: 1000
   })
 )
 
